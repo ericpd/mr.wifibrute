@@ -5,7 +5,7 @@ Prerequirments :
 - Aircrack-ng : `sudo apt install aircrack-ng`
 - **GPU** for `hashcat`
 
-### Lets capture the flag (I mean \*Handshake):
+### Lets capture the flag (I mean \*mr.wifibrute):
 
 Open terminal.....
 
