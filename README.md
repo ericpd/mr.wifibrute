@@ -72,9 +72,9 @@ Open terminal.....
 
 or
 
-1.  use **cap2hccapx.c** file to convert the **cap** file to **hccapx** file
+1.  use **mr.wifibrute.c** file to convert the **cap** file to **hccapx** file
 
-    > gcc cap2hccapx.c -o cap2hccapx && ./cap2hccapx file.cap file.hccapx
+    > gcc mr.wifibrute.c -o mr.wifibrute && ./mr.wifibrute file.cap file.hccapx
 
     ![cap to hcappx](images/capToHccapx.png)
 
@@ -109,4 +109,4 @@ or
 - Others :
   All ready cracked pass check :
 
-  > hashcat -m 2500 test.hccapx rockyou.txt --show
+  > hashcat -m 2500 test.mr.wifibrute rockyou.txt --show
