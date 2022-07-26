@@ -11,7 +11,7 @@
 #define BIG_ENDIAN_HOST
 #endif
 
-#if defined (_WIN32) || defined (_WIN64).
+#if defined (_WIN32) || defined (_WIN64)
 typedef unsigned int lsearch_cnt_t;
 #else
 typedef size_t lsearch_cnt_t;
